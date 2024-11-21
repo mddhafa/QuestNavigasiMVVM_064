@@ -24,7 +24,7 @@ enum class Halaman{
 @Composable
 fun Navigasi(
     modifier: Modifier = Modifier,
-    viewModel: MahasiswaViewModel = viewModel(),
+    viewModel: MahasiswaViewModel = viewModel(),    
     navHost: NavHostController = rememberNavController()
 ) {
     Scaffold { isipadding ->
