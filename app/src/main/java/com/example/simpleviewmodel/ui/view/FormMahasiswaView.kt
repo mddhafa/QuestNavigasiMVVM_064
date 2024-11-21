@@ -64,7 +64,7 @@ fun FormMahasiswaView(
             modifier = Modifier .fillMaxWidth() .padding(5.dp),
             value = nim,
             onValueChange = {nim = it},
-            label = { Text("nim") },
+            label = { Text("NIM") },
             placeholder = { Text("Masukkan NIM Anda") }
         )
 
