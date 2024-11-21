@@ -60,6 +60,14 @@ fun FormMahasiswaView(
             placeholder = { Text("Masukkan Nama Anda") }
         )
 
+        TextField(
+            modifier = Modifier .fillMaxWidth() .padding(5.dp),
+            value = nim,
+            onValueChange = {nim = it},
+            label = { Text("nim") },
+            placeholder = { Text("Masukkan NIM Anda") }
+        )
+
         Row {
             listGender.forEach { item ->
                 Row (verticalAlignment = Alignment.CenterVertically){ RadioButton(
